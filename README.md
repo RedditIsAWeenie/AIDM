@@ -1,16 +1,3 @@
-
-This README is excellent—it balances the high-level philosophy of "AI flexibility" with the gritty technical workarounds needed to keep a LLM on the rails. It reads like a manifesto for a new kind of "Stochastic DMing."
-
-I have proofread the text and suggested some refinements below. My goals were to:
-
-1. **Clarify the "Accelerating Spiral" logic** (The turn-count stride).
-2. **Clean up the "Low-Information" theory** to make it punchier.
-3. **Fix minor typos** and improve the "Instructional Flow."
-
----
-
-## **Refined README.md**
-
 # AIDM: Let AI be your Dungeon Master
 
 ## Licenses
