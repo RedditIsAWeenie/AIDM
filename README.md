@@ -104,5 +104,5 @@ The magic of the AI is its flexibility and ability to come up with solutions on 
 1. **Why isnt the save game block a separate file?**
 
 We really want to get users in the habit of appending save game information, rather than replacing the save game information. We could probably break out the prefs to this file too,
-but it is needed in worldbuilding and user error abounds. It seemed simpler to keep it all in one place with required infrastructure, so if something is missing, they will know it.  If they screw up the file, they can come here to get a new one. Maybe the AI could check for this. Maybe we will change out mind?
+but it is needed in worldbuilding and user error abounds. It seemed simpler to keep it all in one place with required infrastructure, so if something is missing, they will know it.  If they screw up the file, they can come here to get a new one. Maybe the AI could check for this. Maybe we will change our mind?
 
