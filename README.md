@@ -29,10 +29,10 @@ This project provides a framework to play D&D with an AI as your Dungeon Master 
 1. **Prepare the Synopsis:** Make a copy of `AISynopsis.md`. Delete the "Saved Game State" at the bottom and save the file.
 2. **Launch the Session:** Open a new AI session (e.g., [Gemini](http://gemini.google.com)).
 3. **Upload required files:** Drag the following files into the prompt:
-* `AISynopsis.md` (Your fresh copy)
-* `fair_dice.md`
-* `WorldBuilding.md`
-* `PDF copies of your character sheets`
+   - `AISynopsis.md` (Your fresh copy)
+   - `fair_dice.md`
+   - `WorldBuilding.md`
+   - `PDF copies of your character sheets`
 
 4. **Introduction:** Send a message introducing your party. (Click Submit)
 5. **World Generation:** Follow the DM's instructions. Eventually, it will produce a **Game State** block.
@@ -42,9 +42,9 @@ This project provides a framework to play D&D with an AI as your Dungeon Master 
 
 1. **Start a Fresh Session:** Open a new AI window. (e.g., [Gemini](http://gemini.google.com))
 2. **Upload required files:**
-* `AISynopsis.md` (with Game State at the end)
-* `fair_dice.md`
-* `PDF copies of your character sheets`
+   - `AISynopsis.md` (with Game State at the end)
+   - `fair_dice.md`
+   - `PDF copies of your character sheets`
 3. **Engage:** Greet the DM and begin your adventure. (Click Submit)
 
 #### Saving Progress
