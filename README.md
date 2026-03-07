@@ -100,3 +100,9 @@ The general solution is to make all information knowable for the AI.
 ### Over Constraint
 The magic of the AI is its flexibility and ability to come up with solutions on its own without being told how to do things. It is very tempting as programmers to start adding code to the AI instructions and try to force it into interpreter mode for a well defined pseudo-language. However, this reverts the D&D experience into house-of-cards mode like any good C++ program and we lose the flexibility of AI. Are there historically examples of classically written C++ codebases that DM arbitrary campaigns well? No. It is best to move with a light touch. There are a couple of hard guard rails we need to put into place to stay out of low-information situations. Otherwise, we do best to suggest, rather than require, and then only when we belive the AI is truly misbehaving.
 
+## FAQ
+1. **Why isnt the save game block a separate file?**
+
+We really want to get users in the habit of appending save game information, rather than replacing the save game information. We could probably break out the prefs to this file too,
+but it is needed in worldbuilding and user error abounds. It seemed simpler to keep it all in one place with required infrastructure, so if something is missing, they will know it.  If they screw up the file, they can come here to get a new one. Maybe the AI could check for this. Maybe we will change out mind?
+
