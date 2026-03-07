@@ -27,7 +27,7 @@ This project provides a framework to play D&D with an AI as your Dungeon Master 
 5. **Introduction:** Send a message introducing your party. (Click Submit)
 6. **World Generation:** Follow the DM's instructions. Eventually, it will produce a **Game State** block.
 7. **Save & Refresh:**
-   - Append that Game State to the bottom of `AISynopsis.md`.
+   - Copy the Game State block and append it to the bottom of `AISynopsis.md`. Save it.
    - **Close the AI session.** This cleans the "Short-term Memory" (Context Window) to ensure a clean start for play.
    - Proceed to [Playing The Game](#playing-the-game) below.
 
