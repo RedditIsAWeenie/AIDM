@@ -49,7 +49,7 @@ This project provides a framework to play D&D with an AI as your Dungeon Master 
 
 #### Modifying the System
 
-The instructions are in plain English. If you want to change how the DM handles combat or world-building, just edit the files. You can even ask the AI: *"How should I rewrite WorldBuilding.md to include more nautical themes?"* ---
+The instructions are in plain English. If you want to change how the DM handles combat or world-building, just edit the files. You can even ask the AI: *"How should I rewrite WorldBuilding.md to include more nautical themes?"* 
 
 ### Troubleshooting & Psychosis
 
