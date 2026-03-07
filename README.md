@@ -45,7 +45,16 @@ This project provides a framework to play D&D with an AI as your Dungeon Master 
 * `AISynopsis.md` (with Game State at the end)
 * `fair_dice.md`
 * **PDF copies** of your character sheets.
-4. **Engage:** Greet the DM and begin your adventure. (Click Submit)
+3. **Engage:** Greet the DM and begin your adventure. (Click Submit)
+
+#### Saving Progress
+
+1. Ask the AI-DM to save its progress.
+2. Copy the state block it produces and append it to the bottom of AISynopsis.md for this game. **Click Save.**
+3. This is a good time to clean out the AI's context memory:
+   - Close the browser window
+   - Update any character sheets (e.g on dndbeyond) and export updated PDFs
+   - Resume play by repeating the procedure in [Playing The Game](#playing-the-game) above.
 
 #### Modifying the System
 
@@ -55,7 +64,7 @@ The instructions are in plain English. If you want to change how the DM handles 
 
 AI faces a "Stochastic Paradox": it is flexible but brittle. When its context window fills up, it may suffer "AI Psychosis"—forgetting rules or retconning reality.
 
-1. **The "Plot Armor" Bug:** If the game becomes suspiciously easy, **re-upload `fair_dice.md**`. The AI has likely "hallucinated" a dice-rolling facility and abandoned the fair table.
+1. **The "Plot Armor" Bug:** If the game becomes suspiciously easy, **re-upload `fair_dice.md`**. The AI has likely "hallucinated" a dice-rolling facility and abandoned the fair table.
 
 2. **The Retcon Bug:** If the DM forgets your inventory or a dead NPC "reappears," your context window has compacted. **Proactively save your progress** (update the Synopsis) and start a fresh session every few hours or during a Long Rest. This prunes irrelevant history and saves space in the AI-DM's limited memory for further adventuring.
 
