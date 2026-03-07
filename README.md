@@ -13,17 +13,20 @@ This project provides a framework to play D&D with an AI as your Dungeon Master 
 
 #### Setting up a New Game
 
-1. **Prepare the Synopsis:** Make a copy of `AISynopsis.md`. Delete the "Saved Game State" at the bottom and save the file.
-2. **Launch the Session:** Open a new AI session (e.g., [Gemini](http://gemini.google.com)).
-3. **Upload required files:** Drag the following files into the prompt:
+1. **Prepare the Synopsis:**
+   - Make a copy of `AISynopsis.md` for the new game.
+   - Modify the preferences to taste near the top of the file.
+   - Delete the information below "Saved Game State" at the bottom and save the file.
+3. **Launch the Session:** Open a new AI session (e.g., [Gemini](http://gemini.google.com)).
+4. **Upload required files:** Drag the following files into the prompt:
    - `AISynopsis.md` (Your fresh copy)
    - `fair_dice.md`
    - `WorldBuilding.md`
    - `PDF copies of your character sheets`
 
-4. **Introduction:** Send a message introducing your party. (Click Submit)
-5. **World Generation:** Follow the DM's instructions. Eventually, it will produce a **Game State** block.
-6. **Save & Refresh:** Append that Game State into the bottom of `AISynopsis.md`. **Close the session.** This clears the "Short-term Memory" (Context Window) to ensure a clean start for play.
+5. **Introduction:** Send a message introducing your party. (Click Submit)
+6. **World Generation:** Follow the DM's instructions. Eventually, it will produce a **Game State** block.
+7. **Save & Refresh:** Append that Game State into the bottom of `AISynopsis.md`. **Close the session.** This clears the "Short-term Memory" (Context Window) to ensure a clean start for play.
 
 #### Playing The Game
 
