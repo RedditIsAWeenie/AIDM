@@ -42,7 +42,7 @@ This project provides a framework to play D&D with an AI as your Dungeon Master 
 
 1. **Start a Fresh Session:** Open a new AI window. (e.g., [Gemini](http://gemini.google.com))
 2. **Upload required files:**
-* `AISynopsis.md` (Your fresh copy)
+* `AISynopsis.md` (with Game State at the end)
 * `fair_dice.md`
 * **PDF copies** of your character sheets.
 4. **Engage:** Greet the DM and begin your adventure. (Click Submit)
