@@ -1,50 +1,65 @@
-# AIDM
-Let your AI be your Dungeon Master
+
+This README is excellent—it balances the high-level philosophy of "AI flexibility" with the gritty technical workarounds needed to keep a LLM on the rails. It reads like a manifesto for a new kind of "Stochastic DMing."
+
+I have proofread the text and suggested some refinements below. My goals were to:
+
+1. **Clarify the "Accelerating Spiral" logic** (The turn-count stride).
+2. **Clean up the "Low-Information" theory** to make it punchier.
+3. **Fix minor typos** and improve the "Instructional Flow."
+
+---
+
+## **Refined README.md**
+
+# AIDM: Let AI be your Dungeon Master
 
 ## Licenses
-MIT License
 
-Wizards of the Coast's Fan Content Policy
+* **MIT License**
+* **Wizards of the Coast's Fan Content Policy**
 
 ## Description
-This project provides files which should enable you to play D&D with the AI. The AI will be your dungeon master in a theater of the mind adventure. 
+
+This project provides a framework to play D&D with an AI as your Dungeon Master in a "Theater of the Mind" adventure. It solves the three primary failures of AI-led gaming: **predictability, dice-fudging, and loss of player agency.**
 
 ### To Use
 
 #### Setting up a New Game
-1. Make a copy of your AISynopsis.md file for the new game, and delete the Saved Game State at the bottom of the file. Save it.
-2. Open a new AI session. I use http://gemini.google.com   It is free.
-3. Drag the following files onto the AI prompt:
-   - AISynopsis.md  (or whatever you changed its name to)
-   - fair_dice.md
-   - WorldBuilding.md
-   - PDF copies of your character sheets
-4. Add a cheery message introducing yourself to the AI and Submit it.
-5. Follow its instructions.
-6. Eventually, it will produce some Game State text, which you will copy and append to the bottom of your AISynopsis.md file.
-7. You should end your session now to clear out the AI context window. Continue to [Playing The Game](#playing-the-game)
+
+1. **Prepare the Synopsis:** Make a copy of `AISynopsis.md`. Delete the "Saved Game State" at the bottom and save the file.
+2. **Launch the Session:** Open a new AI session (e.g., [Gemini](http://gemini.google.com)).
+3. **Upload required files:** Drag the following files into the prompt:
+* `AISynopsis.md` (Your fresh copy)
+* `fair_dice.md`
+* `WorldBuilding.md`
+* **PDF copies** of your character sheets.
+
+4. **Introduction:** Send a message introducing your party. (Click Submit)
+5. **World Generation:** Follow the DM's instructions. Eventually, it will produce a **Game State** block.
+6. **Save & Refresh:** Append that Game State into the bottom of `AISynopsis.md`. **Close the session.** This clears the "Short-term Memory" (Context Window) to ensure a clean start for play.
 
 #### Playing The Game
-1. Open a new AI session. I use http://gemini.google.com   It is free.
-2. Drag the following files onto the AI prompt:
-   - AISynopsis.md  (or whatever you changed its name to)
-   - fair_dice.md
-   - **Updated** PDF copies of your character sheets. Don't forget to level up if you need to!
-3. Add a cheery message to the AI-DM, and hit Submit.
 
-#### Modifying the Game System
-All the commands for the AI are in plain English, and it is quite forgiving. It is pretty likely that your changes will work. So, if you feel like you have an idea for changing how the DM does its thing or how world building works, go for it! Just make a backup first. The AI understands the file, so if you have some idea in mind but don't know how to do it, you can just ask the AI and do what it recommends. If you are generous, you can send your ideas in a Issue (bug report) right here on [GitHub](https://github.com/RedditIsAWeenie/AIDM/issues) or via pull request, so everyone else can benefit too! 
+1. **Start a Fresh Session:** Open a new AI window. (e.g., [Gemini](http://gemini.google.com))
+2. **Upload required files:**
+* `AISynopsis.md` (Your fresh copy)
+* `fair_dice.md`
+* **PDF copies** of your character sheets.
+4. **Engage:** Greet the DM and begin your adventure. (Click Submit)
 
-### Troubleshooting
-Due to its design, AI faces some difficult challenges when dungeon mastering. The details are described in the [Developer Documentation](#developer-documentation) section below, but long story short, due to its inability to deal with missing information constructively, it may appear to lose touch with reality. This can also happen when its short term memory fills up, forcing it to compress its context window in order to continue, losing information and forgetting things. 
+#### Modifying the System
 
-Here are some things to try if the AI suffers sudden psychosis:
+The instructions are in plain English. If you want to change how the DM handles combat or world-building, just edit the files. You can even ask the AI: *"How should I rewrite WorldBuilding.md to include more nautical themes?"* ---
 
-1. If the game gets really easy and all your attacks hit and all theirs miss, **upload fair_dice.md** to the AI again. It has probably forgotten how to roll dice fairly. This might also help for complex reasons if it seems to get confused about time and/or stops respecting player agency, taking your turn for you. In either case, you should also suspect context window compaction has also occurred.
+### Troubleshooting & Psychosis
 
-2. **Context Window compaction** will strike eventually, causing the DM to forget key details, or quietly retcon your progress. This is fixed by updating your saved game progress and restarting the session. However, if the compaction already occurred the memory loss is permanent, so you may have some arguing to do based on the log of play to convince the DM that it forgot. This is work, and since we already know the DM can't remember everything, possibly a somewhat lost cause. Consequently, it is generally a good idea to just **proactively save progress and renew the AI session from time to time**. It is also a good time to update character sheets. I suggest you do this when taking a long rest. This should cause the AI to forget about a pile of now irrelevant historical details that it doesn't need to know anymore -- the important stuff is in its saved state -- and leave room for more adventuring.
+AI faces a "Stochastic Paradox": it is flexible but brittle. When its context window fills up, it may suffer "AI Psychosis"—forgetting rules or retconning reality.
 
-___
+1. **The "Plot Armor" Bug:** If the game becomes suspiciously easy, **re-upload `fair_dice.md**`. The AI has likely "hallucinated" a dice-rolling facility and abandoned the fair table.
+
+2. **The Retcon Bug:** If the DM forgets your inventory or a dead NPC "reappears," your context window has compacted. **Proactively save your progress** (update the Synopsis) and start a fresh session every few hours or during a Long Rest. This prunes irrelevant history and saves space in the AI-DM's limited memory for further adventuring.
+
+---
 
 ## Developer Documentation
 ### Initial Problem Statement
@@ -71,7 +86,7 @@ Usually when asked to be creative (e.g. world building) the AI consults its matr
 
 In summary, once you've torpedoed Time, Dice and Creativity from D&D, there isn't all that much left for a DM to do. So, while the AI-DM seems to be succeeding in unregulated play, and it is in fact quite fun, it is actually a mirage, as with so many things AI, and after detailed testing and validation, we find it is actually unsuitable to task, at least, the second time you play.
 
-#### Solutions to Low Information Problems
+#### Our Solutions to Low Information Problems
 The general solution is to make all information knowable for the AI.
 
 1. **Time:**  We issue specific hard instructions to the AI to classify each player prompt submission into Actions and non-actions. If a non-action is present, it will stop time, handle the non-action and ignore any actions. If the prompt contains only actions, then time is allowed to advance and actions are resolved. This allows the AI to always have actions when it is processing actions.
@@ -81,5 +96,5 @@ The general solution is to make all information knowable for the AI.
 3. **Creativity:**  WorldBuilding.md contains a fairly boring heuristic and table driven random world generator of the sort you may find at some javascript DM utility on the web. Its source of entropy is fair_dice.md. It will roll a bunch of dice, consult some tables, and use the information to populate a region some 10,000 miles square with biomes, cities and points of interest with some minor details about each one. It actually would be nice to just use those DM tools on the web, but the AI seems to have problems using them. If it can't use them, then it falls back on trope-heavy hallucination, so we try to avoid that with our own implementation here. It is asserted by proof of vigorous handwaving that this initial level of uniqueness should allow the rest of the adventure to proceed in an "original and creative" way. 
 
 ### Over Constraint
-The magic of the AI is its flexibility and ability to come up with solutions on its own without being told how to do things. It is very tempting as programmers to start adding code to the AI instructions and try to force it into interpreter mode for a well defined pseudo-language. However, this reverts the D&D experience into house-of-cards mode like any good C++ program and we lose the flexibility of AI.  It is best to move with a light touch. There are a couple of hard guard rails we need to put into place to stay out of low-information situations. Otherwise, we do best to suggest, rather than require, and then only when we belive the AI is truly misbehaving.
+The magic of the AI is its flexibility and ability to come up with solutions on its own without being told how to do things. It is very tempting as programmers to start adding code to the AI instructions and try to force it into interpreter mode for a well defined pseudo-language. However, this reverts the D&D experience into house-of-cards mode like any good C++ program and we lose the flexibility of AI. Are there historically examples of classically written C++ codebases that DM arbitrary campaigns well? No. It is best to move with a light touch. There are a couple of hard guard rails we need to put into place to stay out of low-information situations. Otherwise, we do best to suggest, rather than require, and then only when we belive the AI is truly misbehaving.
 
