@@ -55,7 +55,7 @@ The instructions are in plain English. If you want to change how the DM handles 
 
 ### Troubleshooting & Psychosis
 
-AI faces a "Stochastic Paradox": it is flexible but brittle. When its context window fills up, it may suffer "AI Psychosis"—forgetting rules or retconning reality.
+When the AI's short term memory (context window) fills up, it will make space by summarizing what it knows and thowing the rest out. This may cause it to suffer "AI Psychosis" -— forgetting rules or retconning reality.
 
 1. **The "Plot Armor" Bug:** If the game becomes suspiciously easy, **re-upload `fair_dice.md`**. The AI has likely "hallucinated" a dice-rolling facility and abandoned the fair table.
 
