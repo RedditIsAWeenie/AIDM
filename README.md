@@ -61,7 +61,7 @@ When the AI's short term memory (context window) fills up, it will make space by
 
 2. **The Retcon Bug:** If the DM forgets your inventory or a dead NPC "reappears," your context window has compacted. **Proactively save your progress** (update the Synopsis) and start a fresh session every few hours or during a Long Rest. This prunes irrelevant history and saves space in the AI-DM's limited memory for further adventuring.
 
-Note: when context compaction occurs, the memory loss is permanent. If this happened to you and it is causing problems for game progression, you may need to argue your case with the AI, producing old logs as necessary, to convince it to accept the correct version of reality.
+Note: when context compaction occurs, the memory loss is permanent. If this happened to you and it is causing problems for game progression, you may need to argue your case with the AI, producing old logs as necessary, to convince it to accept the correct version of reality. Your best defense is to save early and often. I recommend whenever you take a long rest.
 
 ---
 
