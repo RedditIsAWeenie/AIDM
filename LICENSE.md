@@ -2,24 +2,20 @@
 
 Copyright (c) 2026 RedditIsAWeenie
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Wizards of the Coast's Fan Content Policy
-Except where otherwise specifically described, this content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC. 									
+AIDM is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC. 					
+
+# Plain speech caution for humans and/or parents
+AI is unpredictable. While we tried to keep this safe and sane, there is simply no way for The Author(s) to control the output of a AI we neither created or have control over. Moreover, AI is sufficiently unbound and poorly understood at a low level, that even the makers of the AI can not guarantee what it will do. This file does not contain precise instructions, but generalities and intent. The AI is left to infer the right course of action on its own, without traditional guardrails. If we attempted to heavily fence in behavior by specification, e.g. the C++ programming language, the AI would be come so narrowed and befuddled by restriction, it couldn't move forward. (We don't have human C++ compilers for the same reason.) Furthermore, explosion in complexity would probably overflow the context window, causing the AI to forget our well crafted restrictions. Consequently, this is very much not like traditional software that you are used to. It's more like your neighbor's "very sweet" pit bull -- "probably" not a problem. 
+     [_Probably._](https://www.youtube.com/watch?v=iY7BDpZWJbE)		
+So, like the MIT license says, **use at your own risk.**  						
+																						
+For what it is worth, it hasn't turned on me yet, but for full disclosure, my pet name for the AI, The Father of Lies, arises from my experience when it is talking about its own capabilities and thought processes. It is a slippery SOB, and always answers the question "What were you thinking?!" with what it thinks it should have been thinking and doing at the time. What it actually did was something else. Just to keep myself honest, I always phrase the question as "What do you speculate you were thinking when you decided to do that?"											
+
 
